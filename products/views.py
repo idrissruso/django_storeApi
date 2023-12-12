@@ -4,6 +4,7 @@ from rest_framework.decorators import api_view
 from .serializer import ProductSerializer
 from .models import Product
 from rest_framework import status
+from django.views.decorators.csrf import csrf_exempt
 
 # Create your views here.
 
@@ -33,6 +34,7 @@ def getProduct(request,id):
     return JsonResponse({"message":"success","status":status.HTTP_200_OK,"data":serializer.data},safe=False)
 
 
+@csrf_exempt
 @api_view(["POST"])
 def createProduct(request):
     serializer = ProductSerializer(data=request.data)
