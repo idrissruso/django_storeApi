@@ -20,13 +20,14 @@ def create(request):
     return Response(serializer.errors,status=status.HTTP_400_BAD_REQUEST)
     
        
-
+@api_view(["GET"])
 def getCategories(request):
     categories = Category.objects.all()
     serializer = CategorySerializer(categories,many=True)
-    return JsonResponse(serializer.data,safe=False)
+    return Response(serializer.data,status=status.HTTP_200_OK)
 
+@api_view(["GET"])
 def getCategory(request,id):
     category = Category.objects.get(id=id)
     serializer = CategorySerializer(category)
-    return JsonResponse(serializer.data,safe=False)
+    return Response(serializer.data,status=status.HTTP_200_OK)

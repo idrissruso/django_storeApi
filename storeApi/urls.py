@@ -22,5 +22,6 @@ urlpatterns = [
     path("products/",include("products.urls")),
     path("orders/",include("orders.urls")),
     path("companies/",include("companies.urls")),
-    path("categories/",include("categories.urls"))
+    path("categories/",include("categories.urls")),
+    path("auth/",include("users.urls")),
 ]

@@ -21,25 +21,26 @@ def createCompanies(request):
             serializer = CompanySerializer(data=d)
             if serializer.is_valid():
                 serializer.save()
-        return JsonResponse({"message":"success"},status=status.HTTP_201_CREATED)
+        return Response({"message":"success"})
     except:
-        return JsonResponse({"message":"failed"},status=status.HTTP_400_BAD_REQUEST)
+        return Response({"message":"failed"})
    
+@api_view(["GET"])
 def getCompanies(request):
     companies = Company.objects.all()
     serializer = CompanySerializer(companies,many=True)
-    return JsonResponse({"message":"success","status":status.HTTP_200_OK,"data":serializer.data},safe=False)
+    return Response({"message":"success","status":status.HTTP_200_OK,"data":serializer.data})
           
-
+@api_view(["GET"])
 def getCompany(request,id):
     company = Company.objects.get(id=id)
     serializer = CompanySerializer(company)
-    return JsonResponse({"message":"success","status":status.HTTP_200_OK,"data":serializer.data},safe=False)
+    return Response({"message":"success","status":status.HTTP_200_OK,"data":serializer.data})
 
-@api_view
+@api_view(["POST"])
 def createCompany(request):
     serializer = CompanySerializer(data=request.data)
     if serializer.is_valid():
         serializer.save()
-        return JsonResponse({"message":"success"},status=status.HTTP_201_CREATED)
-    return JsonResponse({"message":"failed"},status=status.HTTP_400_BAD_REQUEST)
+        return Response({"message":"success"})
+    return Response({"message":"failed"})

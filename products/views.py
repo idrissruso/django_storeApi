@@ -4,7 +4,7 @@ from rest_framework.decorators import api_view
 from .serializer import ProductSerializer
 from .models import Product
 from rest_framework import status
-from django.views.decorators.csrf import csrf_exempt
+from rest_framework.response import Response
 
 # Create your views here.
 
@@ -23,22 +23,22 @@ def createProducts(request):
     except:
         return JsonResponse({"message":"failed"},status=status.HTTP_400_BAD_REQUEST)
 
+@api_view(["GET"])
 def getProducts(request):
     products = Product.objects.all()
     serializer = ProductSerializer(products,many=True)
-    return JsonResponse({"message":"success","status":status.HTTP_200_OK,"data":serializer.data},safe=False)
+    return Response({"message":"success","status":status.HTTP_200_OK,"data":serializer.data})
 
 def getProduct(request,id):
     product = Product.objects.get(id=id)
     serializer = ProductSerializer(product)
-    return JsonResponse({"message":"success","status":status.HTTP_200_OK,"data":serializer.data},safe=False)
+    return Response({"message":"success","status":status.HTTP_200_OK,"data":serializer.data})
 
 
-@csrf_exempt
 @api_view(["POST"])
 def createProduct(request):
     serializer = ProductSerializer(data=request.data)
     if serializer.is_valid():
         serializer.save()
-        return JsonResponse({"message":"success"},status=status.HTTP_201_CREATED)
-    return JsonResponse({"message":"failed"},status=status.HTTP_400_BAD_REQUEST)
+        return Response({"message":"success"},status=status.HTTP_201_CREATED)
+    return Response({"message":"failed"},status=status.HTTP_400_BAD_REQUEST)

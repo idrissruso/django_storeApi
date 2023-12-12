@@ -4,7 +4,7 @@ from rest_framework.decorators import api_view
 from .serializer import OrderSerializer
 from .models import Order
 from rest_framework import status
-
+from rest_framework.response import Response
 # Create your views here.
 
 def home(request):
@@ -22,20 +22,22 @@ def createOrders(request):
         return JsonResponse({"message":"success"},status=status.HTTP_201_CREATED)
     except:
         return JsonResponse({"message":"failed"},status=status.HTTP_400_BAD_REQUEST)
-    
+
+@api_view(["GET"])
 def getOrders(request):
     orders = Order.objects.all()
     serializer = OrderSerializer(orders,many=True)
-    return JsonResponse({"message":"success","status":status.HTTP_200_OK,"data":serializer.data},safe=False)
+    return Response({"message":"success","status":status.HTTP_200_OK,"data":serializer.data})
 
+@api_view(["GET"])
 def getOrder(request,id):
     order = Order.objects.get(id=id)
     serializer = OrderSerializer(order)
-    return JsonResponse({"message":"success","status":status.HTTP_200_OK,"data":serializer.data},safe=False)
+    return Response({"message":"success","status":status.HTTP_200_OK,"data":serializer.data})
 @api_view(["POST"])
 def createOrder(request):
     serializer = OrderSerializer(data=request.data)
     if serializer.is_valid():
         serializer.save()
-        return JsonResponse({"message":"success"},status=status.HTTP_201_CREATED)
-    return JsonResponse({"message":"failed"},status=status.HTTP_400_BAD_REQUEST)
+        return Response({"message":"success"},status=status.HTTP_201_CREATED)
+    return Response({"message":"failed"},status=status.HTTP_400_BAD_REQUEST)
