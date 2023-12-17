@@ -29,6 +29,12 @@ def getProducts(request):
     serializer = ProductSerializer(products,many=True)
     return Response({"message":"success","status":status.HTTP_200_OK,"data":serializer.data})
 
+@api_view(["GET"])
+def getProductsPage(request,page):
+    products = Product.objects.all()[(page-1)*10:page*10]
+    serializer = ProductSerializer(products,many=True)
+    return Response({"message":"success","status":status.HTTP_200_OK,"data":serializer.data})
+
 
 @api_view(["GET"])
 def getProduct(request,id):
