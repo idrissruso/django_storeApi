@@ -23,11 +23,13 @@ def createProducts(request):
     except:
         return JsonResponse({"message":"failed"},status=status.HTTP_400_BAD_REQUEST)
 
-@api_view(["GET"])
+@api_view(['GET'])
 def getProducts(request):
-    products = Product.objects.all()
-    serializer = ProductSerializer(products,many=True)
-    return Response({"message":"success","status":status.HTTP_200_OK,"data":serializer.data})
+    if request.method == "GET":
+        products = Product.objects.all()
+        serializer = ProductSerializer(products, many=True)
+        response = {"message": "success", "status": status.HTTP_200_OK,"products": serializer.data,}
+        return JsonResponse(response, safe=False)
 
 @api_view(["GET"])
 def getProductsPage(request,page):
