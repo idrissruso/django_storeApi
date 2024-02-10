@@ -1,0 +1,1591 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-12-05T20:23:12.887Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Tables",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-12-05T20:23:31.813Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Chairs",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-12-05T20:23:39.389Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Kids",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-12-05T20:23:51.167Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Sofas",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-12-05T20:23:55.363Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "Beds",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-12-10T17:16:33.693Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "22",
+      "object_repr": "Matthew Bed",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image url\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-12-10T17:16:57.789Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "22",
+      "object_repr": "Matthew Bed",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-12-10T18:58:23.840Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "idrissa",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.564Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "45",
+      "object_repr": "Avery Armchair",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.579Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "44",
+      "object_repr": "Ethan Bookshelf",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.595Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "43",
+      "object_repr": "Jackson Dining Table",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.610Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "42",
+      "object_repr": "Henry Bed",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.625Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "41",
+      "object_repr": "Lucas Sofa",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.640Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "40",
+      "object_repr": "Isaac Ottoman",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.656Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "39",
+      "object_repr": "Nathan Wardrobe",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.671Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "38",
+      "object_repr": "Caleb Dresser",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.685Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "37",
+      "object_repr": "Aiden Bedside Table",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.700Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "36",
+      "object_repr": "Elijah Nightstand",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.715Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "35",
+      "object_repr": "Oliver Side Table",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.729Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "34",
+      "object_repr": "Noah Coffee Table",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.743Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "33",
+      "object_repr": "Oliver Stand",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.759Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "32",
+      "object_repr": "Henry Basket",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.773Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "31",
+      "object_repr": "Wyatt Hanger",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.788Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "30",
+      "object_repr": "Gavin Organizer",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.803Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "29",
+      "object_repr": "Samuel Rack",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.819Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "28",
+      "object_repr": "Isaac Screen",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.835Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "27",
+      "object_repr": "Nathan Cart",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.851Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "26",
+      "object_repr": "Dylan Tray",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.866Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "25",
+      "object_repr": "Gabriel Clock",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.880Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "24",
+      "object_repr": "Carter Bench",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.895Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "23",
+      "object_repr": "John Lamp",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.912Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "22",
+      "object_repr": "Matthew Bed",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.927Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "21",
+      "object_repr": "Christopher Sofa",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.944Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "20",
+      "object_repr": "Daniel Table",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.960Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "19",
+      "object_repr": "William Chair",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.976Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "18",
+      "object_repr": "Michael Table",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2023-12-10T18:58:59.990Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "17",
+      "object_repr": "Daniel Bed",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.006Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "16",
+      "object_repr": "James Sofa",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.027Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "15",
+      "object_repr": "David Table",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.041Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": "Andrew Bed",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.057Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": "Matthew Chair",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.072Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "Christopher Table",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.089Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "Michael Bed",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.103Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Daniel Sofa",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.118Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "James Lamp",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.135Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "David Chair",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.151Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Andrew Sofa",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.167Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Matthew Table",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.183Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Christopher Bed",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.199Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Daniel Chair",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.214Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "William Desk",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.229Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Michael Sofa",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2023-12-10T18:59:00.245Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "John Lamp",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2023-12-12T21:01:46.373Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "Idrissa",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2023-12-15T20:43:34.687Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "67",
+      "object_repr": "Ethan Bookshelf",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add product",
+      "content_type": 7,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change product",
+      "content_type": 7,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete product",
+      "content_type": 7,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view product",
+      "content_type": 7,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add order",
+      "content_type": 8,
+      "codename": "add_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change order",
+      "content_type": 8,
+      "codename": "change_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete order",
+      "content_type": 8,
+      "codename": "delete_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view order",
+      "content_type": 8,
+      "codename": "view_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add company",
+      "content_type": 9,
+      "codename": "add_company"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change company",
+      "content_type": 9,
+      "codename": "change_company"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete company",
+      "content_type": 9,
+      "codename": "delete_company"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view company",
+      "content_type": 9,
+      "codename": "view_company"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add category",
+      "content_type": 10,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change category",
+      "content_type": 10,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete category",
+      "content_type": 10,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view category",
+      "content_type": 10,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$AHFBS5AvHjYRNOTitREBGa$ZBxF2DqcHah7cr5Xk9KDHljPRv9Q/Q+AwT6RIzXGeTU=",
+      "last_login": "2023-12-12T18:40:14.662Z",
+      "is_superuser": true,
+      "username": "idris",
+      "first_name": "",
+      "last_name": "",
+      "email": "idris@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-12-05T09:34:17.936Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$n96ywpauXLUmWBei21WPjb$U8kpBrdkExR2bNY+bX4+eDc9qLVoBimEY/bvcisXA5I=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Idrissa",
+      "first_name": "",
+      "last_name": "",
+      "email": "idrisabkar2018@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-12-12T21:02:12.891Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$0PpLWv9h5WS26oK5yUqFXc$DJDN8oEATZaDgJjMMuV/cOoPoPX9UrOYXJWXvPG/bM0=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Afnan",
+      "first_name": "",
+      "last_name": "",
+      "email": "afnan@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-12-12T21:07:45.587Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$88in65UIZv3f1oLfstMTv4$bPJSbJY1CYCZbR8h8g4jE8o3Qbwdn8XZRU1eUuj2fo4=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nasra",
+      "first_name": "",
+      "last_name": "",
+      "email": "nasra@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-12-14T18:21:59.732Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$iBYonNWbuW5tvjGuQkS06K$MLMK3W96uys7QjR6EKfY2Q5liL5JovhVq1+VCaL/4UY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "fatih",
+      "first_name": "",
+      "last_name": "",
+      "email": "fatih@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-12-29T19:59:33.645Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": { "app_label": "admin", "model": "logentry" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": { "app_label": "auth", "model": "permission" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": { "app_label": "auth", "model": "group" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": { "app_label": "auth", "model": "user" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": { "app_label": "contenttypes", "model": "contenttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": { "app_label": "sessions", "model": "session" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": { "app_label": "products", "model": "product" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": { "app_label": "orders", "model": "order" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": { "app_label": "companies", "model": "company" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": { "app_label": "categories", "model": "category" }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "dp9nlpgbziq6j3g63e3npr8wbr6g4ojf",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pBOYSi4dO8ZyMAMUjVtUtqV8e7apAvd_vfef6lI21rj1mSJI6uzAnX63RLlh0w74DtNt1nneVqXMeld0Qdt-jqzPC-H-3dQqdVvndggOJtysWJCQUcYGCyj65xzwQgOGMSD9CX0Fj1k8ANwZ8hSKb1X7w_QbTcq:1rARpN:UPKuTOu2a-ri4pHImWbOX2teojTdlRyKogd5E679bJQ",
+      "expire_date": "2023-12-19T09:34:53.717Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "xev6qblhilebx6bd3coioi3hgaxtq5wh",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pBOYSi4dO8ZyMAMUjVtUtqV8e7apAvd_vfef6lI21rj1mSJI6uzAnX63RLlh0w74DtNt1nneVqXMeld0Qdt-jqzPC-H-3dQqdVvndggOJtysWJCQUcYGCyj65xzwQgOGMSD9CX0Fj1k8ANwZ8hSKb1X7w_QbTcq:1rD7fy:TnpUhDbuj49oloaKd2P9lEe1IlCRotUvFv6XXzzgAns",
+      "expire_date": "2023-12-26T18:40:14.683Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 46,
+    "fields": {
+      "name": "John Lamp",
+      "price": "179.99",
+      "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
+      "image_url": "https://images.pexels.com/photos/943150/pexels-photo-943150.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 1,
+      "company": 1,
+      "color": "Assorted",
+      "shipping_cost": "10.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 47,
+    "fields": {
+      "name": "Carter Bench",
+      "price": "119.99",
+      "description": "Echo park franzen DIY vexillologist. Mustache migas palo santo, helvetica venmo vegan four dollar toast stumptown craft beer sustainable.",
+      "image_url": "https://images.pexels.com/photos/5705090/pexels-photo-5705090.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 2,
+      "company": 1,
+      "color": "Teak",
+      "shipping_cost": "13.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 48,
+    "fields": {
+      "name": "Gabriel Clock",
+      "price": "49.99",
+      "description": "Craft beer plaid blue bottle shaman irony. Gluten-free salvia fap letterpress, fam stumptown.",
+      "image_url": "https://images.pexels.com/photos/3679601/pexels-photo-3679601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "category": 3,
+      "company": 2,
+      "color": "Brass",
+      "shipping_cost": "7.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 49,
+    "fields": {
+      "name": "Dylan Tray",
+      "price": "29.99",
+      "description": "Sartorial keffiyeh offal lomo waistcoat tousled. Normcore mumblecore semiotics truffaut.",
+      "image_url": "https://images.pexels.com/photos/1034584/pexels-photo-1034584.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 1,
+      "company": 1,
+      "color": "Copper",
+      "shipping_cost": "5.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 50,
+    "fields": {
+      "name": "Nathan Cart",
+      "price": "89.99",
+      "description": "Celiac pug chillwave readymade photo booth. Godard chambray plaid 90's gentrify hashtag irony neutra vaporware.",
+      "image_url": "https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 2,
+      "company": 1,
+      "color": "Maple",
+      "shipping_cost": "9.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 51,
+    "fields": {
+      "name": "Isaac Screen",
+      "price": "109.99",
+      "description": "Vegan pickled cold-pressed roof party whatever pop-up farm-to-table direct trade skateboard lumbersexual. Craft beer butcher normcore cray.",
+      "image_url": "https://images.pexels.com/photos/2029694/pexels-photo-2029694.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 3,
+      "company": 2,
+      "color": "Mahogany",
+      "shipping_cost": "11.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 52,
+    "fields": {
+      "name": "Samuel Rack",
+      "price": "79.99",
+      "description": "Mlkshk 90's forage fashion axe, four dollar toast enamel pin XOXO letterpress kinfolk meditation activated charcoal. Pug sustainable distillery kale chips small batch fam butcher thundercats.",
+      "image_url": "https://images.pexels.com/photos/2177482/pexels-photo-2177482.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 2,
+      "company": 1,
+      "color": "Slate",
+      "shipping_cost": "10.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 53,
+    "fields": {
+      "name": "Gavin Organizer",
+      "price": "39.99",
+      "description": "Butcher meditation subway tile adaptogen, DIY raw denim pabst kinfolk next level chartreuse before they sold out mixtape twee. Marfa glossier vaporware tbh readymade photo booth.",
+      "image_url": "https://images.pexels.com/photos/1571452/pexels-photo-1571452.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 1,
+      "company": 2,
+      "color": "Steel",
+      "shipping_cost": "6.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 54,
+    "fields": {
+      "name": "Wyatt Hanger",
+      "price": "19.99",
+      "description": "Poke polaroid hashtag selvage leggings pabst, lo-fi chicharrones 8-bit. Distillery hoodie try-hard blog chillwave banjo seitan shabby chic schlitz pitchfork chambray.",
+      "image_url": "https://images.pexels.com/photos/6489083/pexels-photo-6489083.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 3,
+      "company": 3,
+      "color": "Silver",
+      "shipping_cost": "4.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 55,
+    "fields": {
+      "name": "Henry Basket",
+      "price": "59.99",
+      "description": "Flannel umami tattooed drinking vinegar meh bespoke. Banh mi la croix man braid plaid irony. 8-bit letterpress bitters helvetica gentrify.",
+      "image_url": "https://images.pexels.com/photos/2082090/pexels-photo-2082090.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 2,
+      "company": 1,
+      "color": "Bronze",
+      "shipping_cost": "8.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 56,
+    "fields": {
+      "name": "Oliver Stand",
+      "price": "29.99",
+      "description": "La croix fixie gastropub brooklyn, roof party intelligentsia venmo. Vape artisan cliche hella man braid succulents DIY.",
+      "image_url": "https://images.pexels.com/photos/2029694/pexels-photo-2029694.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 1,
+      "company": 2,
+      "color": "Gold",
+      "shipping_cost": "5.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 57,
+    "fields": {
+      "name": "Noah Coffee Table",
+      "price": "129.99",
+      "description": "Health goth vape locavore, leggings VHS hella pabst listicle fixie kombucha PBR&B. Polaroid DIY crucifix tousled lumbersexual single-origin coffee.",
+      "image_url": "https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 1,
+      "company": 2,
+      "color": "Walnut",
+      "shipping_cost": "9.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 58,
+    "fields": {
+      "name": "Oliver Side Table",
+      "price": "79.99",
+      "description": "Bespoke salvia synth, single-origin coffee live-edge hashtag trust fund vinyl craft beer retro four loko before they sold out.",
+      "image_url": "https://images.pexels.com/photos/6480707/pexels-photo-6480707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "category": 3,
+      "company": 1,
+      "color": "Mahogany",
+      "shipping_cost": "7.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 59,
+    "fields": {
+      "name": "Elijah Nightstand",
+      "price": "99.99",
+      "description": "Tacos chambray prism intelligentsia yr fixie fanny pack. Kinfolk normcore crucifix, tilde raw denim actually dreamcatcher organic selvage YOLO pitchfork.",
+      "image_url": "https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 2,
+      "company": 2,
+      "color": "Espresso",
+      "shipping_cost": "8.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 60,
+    "fields": {
+      "name": "Aiden Bedside Table",
+      "price": "49.99",
+      "description": "Selvage narwhal tattooed polaroid, pabst bitters kombucha. XOXO shoreditch copper mug DIY listicle pitchfork la croix vexillologist glossier.",
+      "image_url": "https://images.pexels.com/photos/4316737/pexels-photo-4316737.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 1,
+      "company": 1,
+      "color": "Cherry",
+      "shipping_cost": "5.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 61,
+    "fields": {
+      "name": "Caleb Dresser",
+      "price": "199.99",
+      "description": "Enamel pin mixtape meditation, actually brunch butcher narwhal mlkshk. Craft beer sartorial prism, food truck umami lo-fi tacos deep v.",
+      "image_url": "https://images.pexels.com/photos/4857775/pexels-photo-4857775.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 3,
+      "company": 1,
+      "color": "Slate",
+      "shipping_cost": "15.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 62,
+    "fields": {
+      "name": "Nathan Wardrobe",
+      "price": "179.99",
+      "description": "Crucifix 3 wolf moon polaroid tbh seitan. Copper mug 90's post-ironic aesthetic bicycle rights try-hard XOXO tattooed swag fixie DIY.",
+      "image_url": "https://images.pexels.com/photos/16869701/pexels-photo-16869701/free-photo-of-modern-luxury-real-estate-property-interior-bedroom.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 2,
+      "company": 2,
+      "color": "Maple",
+      "shipping_cost": "13.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 63,
+    "fields": {
+      "name": "Isaac Ottoman",
+      "price": "89.99",
+      "description": "Bushwick shabby chic vinyl echo park, PBR&B tbh tumeric keytar banh mi williamsburg. Ethical sriracha vexillologist blog.",
+      "image_url": "https://images.pexels.com/photos/116910/pexels-photo-116910.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 1,
+      "company": 1,
+      "color": "Steel",
+      "shipping_cost": "10.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 64,
+    "fields": {
+      "name": "Lucas Sofa",
+      "price": "249.99",
+      "description": "Mixtape bitters umami, kickstarter photo booth post-ironic chicharrones fixie shabby chic. Distillery art party blog, mustache venmo PBR&B lumbersexual.",
+      "image_url": "https://images.pexels.com/photos/890669/pexels-photo-890669.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 3,
+      "company": 2,
+      "color": "Oak",
+      "shipping_cost": "17.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 65,
+    "fields": {
+      "name": "Henry Bed",
+      "price": "279.99",
+      "description": "Distillery gochujang swag chillwave. Helvetica occupy ethical hashtag kickstarter four loko. Semiotics gentrify glossier yuccie, prism succulents copper mug.",
+      "image_url": "https://images.pexels.com/photos/6758398/pexels-photo-6758398.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 2,
+      "company": 1,
+      "color": "Mahogany",
+      "shipping_cost": "16.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 66,
+    "fields": {
+      "name": "Jackson Dining Table",
+      "price": "149.99",
+      "description": "Fingerstache cold-pressed waistcoat, seitan banh mi VHS single-origin coffee. Mumblecore la croix keytar vaporware, VHS vinyl actually cardigan banjo banh mi.",
+      "image_url": "https://images.pexels.com/photos/3932929/pexels-photo-3932929.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 1,
+      "company": 2,
+      "color": "Walnut",
+      "shipping_cost": "14.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 68,
+    "fields": {
+      "name": "Avery Armchair",
+      "price": "199.99",
+      "description": "Cardigan pickled meditation, hashtag salvia activated charcoal pug post-ironic. 8-bit pour-over chia helvetica trust fund, franzen stumptown.",
+      "image_url": "https://images.pexels.com/photos/6760040/pexels-photo-6760040.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "category": 1,
+      "company": 2,
+      "color": "Walnut",
+      "shipping_cost": "15.99"
+    }
+  },
+  {
+    "model": "companies.company",
+    "pk": 1,
+    "fields": {
+      "name": "Modenza",
+      "address": "123 Main Street, Cityville, USA",
+      "phone": "555-123-4567"
+    }
+  },
+  {
+    "model": "companies.company",
+    "pk": 2,
+    "fields": {
+      "name": "Luxora",
+      "address": "456 Oak Avenue, Townsville, USA",
+      "phone": "555-987-6543"
+    }
+  },
+  {
+    "model": "companies.company",
+    "pk": 3,
+    "fields": {
+      "name": "Artifex",
+      "address": "789 Pine Road, Villagetown, USA",
+      "phone": "555-234-5678"
+    }
+  },
+  {
+    "model": "companies.company",
+    "pk": 4,
+    "fields": {
+      "name": "Comfora",
+      "address": "101 Elm Lane, Hamlet City, USA",
+      "phone": "555-876-5432"
+    }
+  },
+  {
+    "model": "companies.company",
+    "pk": 5,
+    "fields": {
+      "name": "Homestead",
+      "address": "321 Birch Street, Countryside, USA",
+      "phone": "555-345-6789"
+    }
+  },
+  { "model": "categories.category", "pk": 1, "fields": { "name": "Tables" } },
+  { "model": "categories.category", "pk": 2, "fields": { "name": "Chairs" } },
+  { "model": "categories.category", "pk": 3, "fields": { "name": "Kids" } },
+  { "model": "categories.category", "pk": 4, "fields": { "name": "Sofas" } },
+  { "model": "categories.category", "pk": 5, "fields": { "name": "Beds" } }
+]
