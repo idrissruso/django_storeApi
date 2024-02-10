@@ -78,35 +78,18 @@ WSGI_APPLICATION = 'storeApi.wsgi.application'
 
 # connect to postgress
 
-import os
-import urllib.parse as up
-import psycopg2
-
-# Parse the DATABASE_URL environment variable
-up.uses_netloc.append("postgres")
-url = up.urlparse("postgres://btcscfxm:lm-OUI2KemJ4ALR4Apm3Buz0wFODvY05@mouse.db.elephantsql.com/btcscfxm")
-
-# Update the DATABASES setting
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': url.path[1:],
-        'USER': url.username,
-        'PASSWORD': url.password,
-        'HOST': url.hostname,
-        'PORT': url.port,
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME':"railway",
+        "USER":"postgres",
+        "PASSWORD":"1GfAg6eeAaBeB4D-*2gE4aA563dGfG4c",
+        "HOST":"monorail.proxy.rlwy.net",
+        "PORT":"44809",
+        
+        
     }
 }
-
-# Establish a connection using psycopg2-binary
-conn = psycopg2.connect(
-    database=url.path[1:],
-    user=url.username,
-    password=url.password,
-    host=url.hostname,
-    port=url.port
-)
-
 
 
 
