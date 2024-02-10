@@ -207,8 +207,11 @@ SIMPLE_JWT = {
     "SLIDING_TOKEN_REFRESH_SERIALIZER": "rest_framework_simplejwt.serializers.TokenRefreshSlidingSerializer",
 }
 
-#allow all 
-
 CORS_ALLOWED_ORIGINS = [
-    "https://rusofy.netlify.app",
+    "http://localhost:8080",
+    "http://127.0.0.1:9000",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:5174",
+   "https://rusofy.netlify.app",
 ]
