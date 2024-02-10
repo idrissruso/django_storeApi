@@ -136,6 +136,15 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+
+CORS_ALLOWED_ORIGINS = [
+    "https://rusofy.netlify.app"
+]
+
+CORS_ALLOWED_HEADERS = list(default_headers) + [
+    'access-control-allow-origin',
+]
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
@@ -192,8 +201,3 @@ SIMPLE_JWT = {
 }
 
 
-CORS_ORIGIN_ALLOW_ALL = True
-
-CORS_ALLOWED_HEADERS = list(default_headers) + [
-    'access-control-allow-origin',
-]
