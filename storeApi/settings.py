@@ -210,5 +210,5 @@ SIMPLE_JWT = {
 #allow all 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://rusofy.netlify.app/home"
+    "https://rusofy.netlify.app",
 ]
